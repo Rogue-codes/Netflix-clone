@@ -1,0 +1,351 @@
+@media screen and (max-width:480px) {
+    .header-container{
+        max-height: 80vh;
+        /* background: linear-gradient( rgba(32, 32, 32, 0.253), rgba(14, 12, 12, 0.801) ),url(../Assets/net.jpg); */
+    }
+    .header-container .netflix{
+        color: red;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 2em;
+        margin-top: 5%;
+        margin-left: 4%;
+        letter-spacing:2.5px;
+        font-weight: normal;
+        position: relative;
+    }
+    .header-container .sign{
+        margin-top: 5%;
+        height: auto;
+        width: 20%;
+        padding: 5px;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+        color: white;
+        position: absolute;
+        margin-left: 75%;
+    }
+    .header-container main{
+        font-family: 'Poppins', sans-serif;
+        width:100%;
+        margin: auto;
+        margin-top: 15%;
+        text-align: center;
+        color: white;
+    }
+    .header-container main h1{
+        font-size: 1.8em;
+        width: 100%;
+        font-weight: 500;
+    }
+    .header-container main h2{
+        font-size: 1.2em;
+        font-weight: 400;
+        padding: 10px;
+    }
+    .header-container main h3{
+        font-size: 1em;
+        padding-bottom: 20px;
+        font-weight: 400;
+    }
+    .header-container .search{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    .header-container input{
+        height: 3rem;
+        width: 90%;
+        padding-left: 15px;
+        border: none;
+        outline: none;
+        box-shadow: 2px 2px 4px grey;
+        font-size: .9em;
+        margin-bottom: 4%;
+    }
+    .header-container button{
+        height: 2.5rem;
+        width: 35%;
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .sect{
+        display: flex;
+        flex-direction: column;
+        border-top:  solid 10px #222;
+        border-bottom:  solid 2px #222;
+        height: 60vh;
+        width: 100%;
+        background-color: #000;
+
+    }
+    .sect .left{
+        width: 100%;
+    }
+    .sect .left-content{
+        width: 100%;
+        position: absolute;
+        margin-top: 1%;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .sect .left-content h1{
+        font-size: 1.5em;
+        padding: 20px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-weight: 600;
+    }
+    .sect .left-content h2{
+        margin-top: -7%;
+        font-size: 1.09em;
+        padding: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+    }
+    .sect .right{
+        height: 100%;
+        width: 100%;
+        margin-top: 40%;
+    }
+    .sect .img-cont{
+        max-width: 250px;
+        height: 200px;
+        margin: auto;
+    }
+    .sect .img-cont img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .sect-2{
+        display: flex;
+        flex-direction: column-reverse;
+        border-top:  solid 5px #222;
+        border-bottom:  solid 2px #222;
+        height: 60vh;
+        width: 100%;
+        background-color: #000;
+    }
+    .sect-2 .FrameTwo-left{
+        width: 100%;
+    }
+    .sect-2 .frame-left-content{
+        width: 100%;
+        position: absolute;
+        margin-top: 1%;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .sect-2 .frame-left-content h1{
+        font-size: 1.5em;
+        padding: 20px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-weight: 600;
+    }
+    .sect-2 .frame-left-content h2{
+        margin-top: -7%;
+        font-size: 1.09em;
+        padding: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+    }
+    .sect-2 .FrameTwo-right{
+        height: 100%;
+        width: 100%;
+    }
+    .sect-2 .frame-img-cont{
+       max-width: 300px;
+       height: 250px;
+       margin: auto;
+    }
+    .sect-2 .frame-img-cont img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .sect-3{
+        height: 30vh;
+        border-top:  solid 5px #222;
+        border-bottom:  solid 2px #222;
+    }
+    .sect-3 .right{
+        display: none;
+    }
+    .sect-3 .left{
+        width: 100%;
+    }
+    .sect-3 .left-content{
+        width: 100%;
+        position: absolute;
+        margin-top: 1%;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .sect-3 .left-content h1{
+        font-size: 1.5em;
+        padding: 20px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-weight: 600;
+    }
+    .sect-3 .left-content h2{
+        margin-top: -7%;
+        font-size: 1em;
+        width: 100%;
+        padding: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        text-align-last: center;
+    }
+    .sect-4{
+        display: flex;
+        flex-direction: column-reverse;
+        border-top:  solid 5px #222;
+        border-bottom:  solid 2px #222;
+        height: 60vh;
+        width: 100%;
+        background-color: #000;
+    }
+    .sect-4 .FrameTwo-left{
+        width: 100%;
+    }
+    .sect-4 .frame-left-content{
+        width: 100%;
+        position: absolute;
+        margin-top: 1%;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .sect-4 .frame-left-content h1{
+        font-size: 1.5em;
+        padding: 20px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-weight: 600;
+    }
+    .sect-4 .frame-left-content h2{
+        margin-top: -7%;
+        font-size: 1em;
+        padding: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin-bottom: 2%;
+    }
+    .sect-4 .FrameTwo-right{
+        width: 100%;
+        height: 100%;
+    }
+    .sect-4 .frame-img-cont{
+        max-width: 300px;
+        height: 250px;
+        margin: auto;
+    }
+    .sect-4 .frame-img-cont img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .accordion-section{
+        width: 100%;
+    }
+   .accordion-container{
+       min-width: 100%;
+    }
+    .accordion-container .head span{
+        font-size: 2em;
+    }
+    .accordion-container .head{
+        font-size: .6em;
+        padding: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-weight: 400;
+    }
+    .accordion-container .foot p{
+        font-size: .9em;
+        padding: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+    }
+    .accordion-section .faq{
+        text-align: center;
+        color: white;
+        font-size: .6em;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-weight: 500;
+    }
+    .accordion-section .ready{
+        text-align: center;
+        color: white;
+        font-size: 1.02em;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 5%;
+        width: 70%;
+        margin: auto;
+        padding-bottom: 5%;
+    }
+    .accordion-section .search-2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -5%;
+    }
+    .accordion-section input{
+        height: 50px;
+        width: 90%;
+        margin-top: 3%;
+        font-size: 1em;
+    }
+    .accordion-section button{
+        width: 40%;
+        margin-top: 3%;
+        height: 50px;
+        font-size: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .footer .foot-cont li{
+       display: none;
+    }
+    .quest {
+        display: none;
+    }
+    .footer .mobile-list{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+    }
+    .footer .mobile-Footer{
+        display: block;
+    }
+    .footer .mobile-list ul{
+        font-size: .7em;
+    }
+}
