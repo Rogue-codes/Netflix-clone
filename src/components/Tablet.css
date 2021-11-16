@@ -1,8 +1,4 @@
-@media screen and (max-width:480px) {
-    .header-container{
-        max-height: 80vh;
-        /* background: linear-gradient( rgba(32, 32, 32, 0.253), rgba(14, 12, 12, 0.801) ),url(../Assets/net.jpg); */
-    }
+@media screen and (min-width:481px) {
     .header-container .netflix{
         color: red;
         font-family: 'Bebas Neue', cursive;
@@ -38,17 +34,17 @@
         color: white;
     }
     .header-container main h1{
-        font-size: 1.8em;
+        font-size: 2em;
         width: 100%;
         font-weight: 500;
     }
     .header-container main h2{
-        font-size: 1.2em;
+        font-size: 1.5em;
         font-weight: 400;
         padding: 10px;
     }
     .header-container main h3{
-        font-size: 1em;
+        font-size: 1.2em;
         padding-bottom: 20px;
         font-weight: 400;
     }
@@ -61,35 +57,31 @@
         margin: auto;
     }
     .header-container input{
-        height: 3rem;
+        height: 3.5rem;
         width: 90%;
         padding-left: 15px;
         border: none;
         outline: none;
         box-shadow: 2px 2px 4px grey;
-        font-size: .9em;
+        font-size: 1em;
         margin-bottom: 4%;
     }
     .header-container button{
-        height: 2.5rem;
+        height: 3rem;
         width: 35%;
         background-color: red;
         color: white;
         border: none;
-        font-size: 1em;
+        font-size: 1.3em;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
     }
     .sect{
+        width: 100%;
         display: flex;
         flex-direction: column;
-        border-top:  solid 10px #222;
-        border-bottom:  solid 2px #222;
-        height: 60vh;
-        width: 100%;
-        background-color: #000;
-
+        height: 90vh;
     }
     .sect .left{
         width: 100%;
@@ -102,15 +94,17 @@
         margin-left: 0%;
     }
     .sect .left-content h1{
-        font-size: 1.5em;
+        font-size: 2.7em;
         padding: 20px;
         font-family: 'Poppins', sans-serif;
         color: white;
         font-weight: 600;
+        padding-top: 50%;
+        transform: translateY(-50%);
     }
     .sect .left-content h2{
-        margin-top: -7%;
-        font-size: 1.09em;
+        margin-top: -30%;
+        font-size: 1.7em;
         padding: 15px;
         font-weight: 400;
         font-family: 'Roboto', sans-serif;
@@ -119,11 +113,11 @@
     .sect .right{
         height: 100%;
         width: 100%;
-        margin-top: 60%;
+        margin-top: 42%;
     }
     .sect .img-cont{
-        max-width: 250px;
-        height: 200px;
+        max-width: 350px;
+        height: 300px;
         margin: auto;
     }
     .sect .img-cont img{
@@ -140,8 +134,18 @@
         width: 100%;
         background-color: #000;
     }
-    .sect-2 .FrameTwo-left{
+    .sect-2 .FrameTwo-right{
+        width:50%;
+    }
+    .sect-2 .frame-img-cont{
+        min-width: 500px;
+        height: 500px;
+        margin: auto;
+    }
+    .sect-2 .frame-img-cont img{ 
+        height: 100%;
         width: 100%;
+        object-fit: cover;
     }
     .sect-2 .frame-left-content{
         width: 100%;
@@ -150,16 +154,20 @@
         text-align: center;
         margin-left: 0%;
     }
+    .sect-2 .FrameTwo-left{
+        width: 100%;
+        height: 100%;
+    }
     .sect-2 .frame-left-content h1{
-        font-size: 1.5em;
+        font-size: 2.7em;
         padding: 20px;
         font-family: 'Poppins', sans-serif;
         color: white;
         font-weight: 600;
     }
     .sect-2 .frame-left-content h2{
-        margin-top: -7%;
-        font-size: 1.09em;
+        margin-top: 0%;
+        font-size: 1.7em;
         padding: 15px;
         font-weight: 400;
         font-family: 'Roboto', sans-serif;
@@ -179,8 +187,15 @@
         height: 100%;
         object-fit: contain;
     }
+    .sect2 {
+        width: 100%;
+        position: absolute;
+        margin-top: 1%;
+        text-align: center;
+        margin-left: 0%;
+    }
     .sect-3{
-        height: 30vh;
+        height: 40vh;
         border-top:  solid 5px #222;
         border-bottom:  solid 2px #222;
     }
@@ -198,15 +213,15 @@
         margin-left: 0%;
     }
     .sect-3 .left-content h1{
-        font-size: 1.5em;
+        font-size: 2.5em;
         padding: 20px;
         font-family: 'Poppins', sans-serif;
         color: white;
         font-weight: 600;
     }
     .sect-3 .left-content h2{
-        margin-top: -7%;
-        font-size: 1em;
+        margin-top: -2%;
+        font-size: 1.7em;
         width: 100%;
         padding: 15px;
         font-weight: 400;
@@ -219,12 +234,13 @@
         flex-direction: column-reverse;
         border-top:  solid 5px #222;
         border-bottom:  solid 2px #222;
-        height: 60vh;
+        height: 65vh;
         width: 100%;
         background-color: #000;
     }
     .sect-4 .FrameTwo-left{
         width: 100%;
+        min-height: 20vh;
     }
     .sect-4 .frame-left-content{
         width: 100%;
@@ -234,46 +250,32 @@
         margin-left: 0%;
     }
     .sect-4 .frame-left-content h1{
-        font-size: 1.5em;
+        font-size: 2.5em;
         padding: 20px;
         font-family: 'Poppins', sans-serif;
         color: white;
         font-weight: 600;
     }
     .sect-4 .frame-left-content h2{
-        margin-top: -7%;
-        font-size: 1em;
+        margin-top: -2%;
+        font-size: 1.2em;
         padding: 15px;
         font-weight: 400;
         font-family: 'Roboto', sans-serif;
         color: white;
         margin-bottom: 2%;
     }
-    .sect-4 .FrameTwo-right{
-        width: 100%;
-        height: 100%;
-    }
-    .sect-4 .frame-img-cont{
-        max-width: 300px;
-        height: 250px;
-        margin: auto;
-    }
-    .sect-4 .frame-img-cont img{
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-    }
     .accordion-section{
         width: 100%;
     }
    .accordion-container{
-       min-width: 100%;
+       min-width: 80%;
     }
     .accordion-container .head span{
         font-size: 2em;
     }
     .accordion-container .head{
-        font-size: .6em;
+        font-size: .7em;
         padding: 15px;
         font-weight: 400;
         font-family: 'Roboto', sans-serif;
@@ -281,7 +283,7 @@
         font-weight: 400;
     }
     .accordion-container .foot p{
-        font-size: .9em;
+        font-size: 1em;
         padding: 15px;
         font-weight: 400;
         font-family: 'Roboto', sans-serif;
@@ -299,7 +301,7 @@
     .accordion-section .ready{
         text-align: center;
         color: white;
-        font-size: 1.02em;
+        font-size: 1.8em;
         font-family: 'Roboto', sans-serif;
         padding-top: 5%;
         width: 70%;
@@ -307,7 +309,7 @@
         padding-bottom: 5%;
     }
     .accordion-section .search-2{
-        width: 100%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -316,36 +318,20 @@
     }
     .accordion-section input{
         height: 50px;
-        width: 90%;
+        width: 80%;
         margin-top: 3%;
         font-size: 1em;
     }
     .accordion-section button{
-        width: 40%;
+        width: 25%;
         margin-top: 3%;
-        height: 50px;
+        height: 40px;
         font-size: 1em;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
     }
-    .footer .foot-cont li{
-       display: none;
-    }
-    .quest {
-        display: none;
-    }
-    .footer .mobile-list{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        width: 90%;
-        margin: auto;
-    }
-    .footer .mobile-Footer{
-        display: block;
-    }
     .footer .mobile-list ul{
-        font-size: .7em;
+        font-size: 4em;
     }
 }

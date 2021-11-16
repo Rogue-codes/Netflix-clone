@@ -1,5 +1,6 @@
 import React from 'react'
 import '../components/mobile.css'
+import '../components/Tablet.css'
 import {AiOutlineRight} from 'react-icons/ai'
 
 const Header = () => {

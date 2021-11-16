@@ -15,7 +15,9 @@ function App() {
       <FrameTwo/>
       <FrameThree/>
       <FrameFour/>
-      <Accordion/>
+      <Accordion/> 
+      
+      
       <Footer/>
     </div>
   );
