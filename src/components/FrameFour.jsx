@@ -14,7 +14,7 @@ const FrameFour = () => {
             <div className="FrameTwo-left">
                 <div className="frame-left-content">
                 <h1>Create profiles for kids.</h1>
-                <h2>Send kids on adventures with their favorite <br /> characters in a space made just for them— <br /> free with your membership.</h2>
+                <h2>Send kids on adventures with their favorite characters in a space made just for them— free with your membership.</h2>
                 </div>
             </div>
         </section>

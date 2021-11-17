@@ -1,0 +1,151 @@
+@media screen and (min-width:1200px) {
+    .header-container{
+        width: 100%;
+        min-height: 90vh;
+    }
+    .header-container main{
+        font-family: 'Poppins', sans-serif;
+        width:100%;
+        margin: auto;
+        margin-top: 5%;
+        text-align: center;
+        color: white;
+    }
+    .header-container main h1{
+        font-size: 3em;
+        max-width: 50%;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+    }
+    .header-container main h2{
+        font-size: 1.8em;
+        font-weight: 400;
+        padding: 10px;
+    }
+    .header-container main h3{
+        font-size: 1.2em;
+        padding-bottom: 20px;
+        font-weight: 400;
+        width: 60%;
+        margin: auto;
+    }
+    .header-container .search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 65%;
+        margin: auto;
+    }
+    .header-container input{
+        height: 4.5rem;
+        width: 60%;
+        padding-left: 15px;
+        border: none;
+        outline: none;
+        box-shadow: 2px 2px 4px grey;
+        font-size: 1.2em;
+    }
+    .header-container .netflix{
+        color: red;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 3em;
+        margin-top: 0%;
+        margin-left: 4%;
+        letter-spacing:2.5px;
+        font-weight: normal;
+        position: relative;
+    }
+    .header-container button{
+        height: 4.5rem;
+        width: 25%;
+        background-color: red;
+        color: white;
+        border: none;
+        margin-top: -4%;
+        font-size: 2vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .sect{
+        border-top:  solid 5px #222;
+        border-top:  solid 5px #222;
+        height: 60vh;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: #000;
+    }
+    .sect .left{
+        width: 50%;
+        
+    }
+    .sect .left-content{
+        position: absolute;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .sect .left-content h1{
+        font-size: 2.7em;
+        padding: 20px;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        color: white;
+        margin-left: 19%;
+        font-weight: 600;
+        padding-top: 40%;
+    }
+    .sect .left-content h2{
+        margin-top: -30%;
+        font-size: 1.4em;
+        max-width: 50%;
+        margin-left: 35%;
+        padding: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        text-align: left;
+    }
+    .sect .right{
+        height: 100%;
+        width: 50%;
+        margin-top: 0%;
+    }
+    .sect .img-cont{
+        max-width: 350px;
+        height: 300px;
+        margin: auto;
+    }
+    .sect .img-cont img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .accordion-section .search-2{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -5%;
+        margin-bottom: 10%;
+    }
+    .accordion-section input{
+        height: 70px;
+        width: 80%;
+        margin-top: 3%;
+        font-size: 1em;
+    }
+    .accordion-section button{
+        width: 30%;
+        margin-top: 3%;
+        height: 70px;
+        font-size: 1.7em;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+}

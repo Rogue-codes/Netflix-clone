@@ -1,0 +1,222 @@
+@media screen and (min-width:1500px) {
+    .header-container{
+        width: 100%;
+        height: 80vh;
+    }
+    .header-container .sign{
+        margin-top: 1%;
+        height: auto;
+        width: 5%;
+        padding: 6px;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+        color: white;
+        position: absolute;
+        margin-left: 90%;
+    }
+    .header-container main{
+        font-family: 'Poppins', sans-serif;
+        width:70%;
+        margin: auto;
+        margin-top: 5%;
+        text-align: center;
+        color: white;
+    }
+    .header-container main h1{
+        font-size: 3em;
+        max-width: 50%;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+    }
+    .header-container main h2{
+        font-size: 1.8em;
+        font-weight: 400;
+        padding: 10px;
+    }
+    .header-container main h3{
+        font-size: 1.2em;
+        padding-bottom: 20px;
+        font-weight: 400;
+        width: 60%;
+        margin: auto;
+    }
+    .header-container .search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 65%;
+        margin: auto;
+    }
+    .header-container input{
+        height: 4.5rem;
+        width: 60%;
+        padding-left: 15px;
+        border: none;
+        outline: none;
+        box-shadow: 2px 2px 4px grey;
+        font-size: 1.2em;
+    }
+    .header-container button{
+        height: 4.5rem;
+        width: 25%;
+        background-color: red;
+        color: white;
+        border: none;
+        margin-top: -4%;
+        font-size: 1.3vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .sect .left-content h2{
+        margin-top: -25%;
+        font-size: 1.4em;
+        width: 90%;
+        margin-left: 19.5%;
+        padding: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        text-align: left;
+    }
+    .sect .img-cont{
+        max-width: 650px;
+        height: 500px;
+        margin: auto;
+    }
+    .sect .img-cont img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .sect-2 .frame-img-cont{
+        min-width: 650px;
+        height: 450px;
+        margin: auto;
+    }
+    .sect-2 .frame-img-cont img{ 
+        height: 100%;
+        width: 100%;
+        margin-top: 5%;
+        object-fit: cover;
+    }
+    .sect-4 .frame-img-cont{
+        max-width: 750px;
+        height: 600px;
+        margin: auto;
+    }
+    .sect-4 .frame-img-cont img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .sect-4 .frame-left-content{
+        width: 90%;
+        position: absolute;
+        margin-top: 15%;
+        text-align: left;
+        margin-left: 0%;
+    }
+    .sect-2 .frame-left-content{
+        width: 80%;
+        height: 100%;
+        position: absolute;
+        margin-top: 0%;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .sect-2 .frame-left-content h1{
+        font-size: 2.5em;
+        padding-top: 20%;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-weight: 600;
+        text-align: left;
+    }
+    .sect-2 .frame-left-content h2{
+        margin-top: 0%;
+        font-size: 1.7em;
+        width: 80%;
+        padding: 15px;
+        font-weight: 400;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+    }
+    .sect-4 .frame-left-content h2{
+        margin-top: -2%;
+        font-size: 1.5em;
+        width: 60%;
+        padding: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin-bottom: 2%;
+    }
+    .sect-3 .left-content{
+        width: 100%;
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 30%;
+    }
+    .sect-3 .left-content h1{
+        font-size: 2.5em;
+        padding-top: 10%;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-weight: 600;
+        text-align: left;
+        margin-left: 5%;
+    }
+    .sect-3 .left-content h2{
+        margin-top: -2%;
+        font-size: 1.5em;
+        width: 55%;
+        padding: 10px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin-left: 5%;
+        text-align: left;
+        text-align-last: left;
+    }
+    .accordion-container{
+        min-width: 50%;
+    }
+    .accordion-section .faq{
+        font-size: 1.6em;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+    .accordion-section .search-2{
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -5%;
+        margin-bottom: 10%;
+    }
+    .accordion-section input{
+        height: 70px;
+        width: 80%;
+        margin-top: 3%;
+        font-size: 1em;
+    }
+    .accordion-section .head h1{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 1%;
+        padding-left: 2%;
+        padding-bottom: 2%;
+        font-weight: 400;
+        font-size: 1.5em;
+    }
+}
