@@ -1,7 +1,6 @@
 @media screen and (max-width:480px) {
     .header-container{
-        max-height: 80vh;
-        /* background: linear-gradient( rgba(32, 32, 32, 0.253), rgba(14, 12, 12, 0.801) ),url(../Assets/net.jpg); */
+        min-height: 80vh;
     }
     .header-container .netflix{
         color: red;
@@ -80,13 +79,14 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        margin-bottom: 5%;
     }
     .sect{
         display: flex;
         flex-direction: column;
         border-top:  solid 10px #222;
         border-bottom:  solid 2px #222;
-        height: 60vh;
+        height: 80vh;
         width: 100%;
         background-color: #000;
 
@@ -136,7 +136,7 @@
         flex-direction: column-reverse;
         border-top:  solid 5px #222;
         border-bottom:  solid 2px #222;
-        height: 60vh;
+        height: 80vh;
         width: 100%;
         background-color: #000;
     }
@@ -219,7 +219,7 @@
         flex-direction: column-reverse;
         border-top:  solid 5px #222;
         border-bottom:  solid 2px #222;
-        height: 60vh;
+        height: 80vh;
         width: 100%;
         background-color: #000;
     }
